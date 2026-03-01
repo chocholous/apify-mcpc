@@ -13,7 +13,7 @@
 			"name": "apify-mcpc",
 			"source": "./",
 			"skills": "./skills",
-			"description": "Finds, evaluates, and runs Apify Actors using the mcpc CLI. Searches Apify Store, compares Actors by stats and ratings, reads input schemas, runs Actors, and retrieves results. Covers 9 marketing intelligence use cases with domain-specific guidance.",
+			"description": "Finds, evaluates, and runs Apify Actors using the mcpc CLI. Searches Apify Store, compares Actors by stats and ratings, reads input schemas, runs Actors, and retrieves results. Covers 8 marketing intelligence use cases plus multi-actor workflow patterns with domain-specific guidance.",
 			"keywords": ["apify", "mcpc", "web-scraping", "actors"],
 			"category": "data-extraction",
 			"version": "1.4.0"

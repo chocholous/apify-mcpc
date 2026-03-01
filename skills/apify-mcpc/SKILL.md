@@ -46,7 +46,7 @@ mcpc -H "User-Agent: apify-agent-skills/apify-mcpc-1.4.0/search" @apify tools-ca
 ## mcpc CLI Reference
 
 Available tools and arguments (for building correct mcpc calls):
-!`mcpc --help 2>/dev/null | head -30 || echo "mcpc not available — install with: npm install -g @apify/mcpc"`
+!`mcpc --help`
 
 ## Use Cases
 
