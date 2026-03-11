@@ -23,10 +23,12 @@ If it fails:
 
 ## Environment
 
-mcpc version: !`mcpc --version`
+Run these at the start of every session to check mcpc status:
 
-Active sessions:
-!`mcpc`
+```bash
+mcpc --version
+mcpc
+```
 
 ## User-Agent Tracking
 
@@ -46,7 +48,10 @@ mcpc -H "User-Agent: apify-agent-skills/apify-mcpc-1.4.0/search" @apify tools-ca
 ## mcpc CLI Reference
 
 Available tools and arguments (for building correct mcpc calls):
-!`mcpc --help`
+
+```bash
+mcpc --help
+```
 
 ## Use Cases
 
