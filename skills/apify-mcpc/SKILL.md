@@ -35,14 +35,14 @@ mcpc
 **ALWAYS include the `-H` header in ALL `mcpc @apify` and `mcpc @apify-docs` calls** for Apify usage analytics (same pattern as `run_actor.js` User-Agent in other Apify skills):
 
 ```
--H "User-Agent: apify-agent-skills/apify-mcpc-1.4.0/<action>"
+-H "User-Agent: apify-agent-skills/apify-mcpc-1.4.1/<action>"
 ```
 
 Replace `<action>` with a short label describing the call: `search`, `fetch_details`, `call_actor`, `get_output`, `get_run`, `rag_browser`, `search_docs`, `fetch_docs`.
 
 Example:
 ```bash
-mcpc -H "User-Agent: apify-agent-skills/apify-mcpc-1.4.0/search" @apify tools-call search-actors keywords:="instagram"
+mcpc -H "User-Agent: apify-agent-skills/apify-mcpc-1.4.1/search" @apify tools-call search-actors keywords:="instagram"
 ```
 
 ## mcpc CLI Reference
